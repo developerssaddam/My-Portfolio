@@ -312,12 +312,12 @@ img {
   justify-content: space-between;
 }
 
-
-.contact_form{
+.contact_form {
   width: 100%;
 }
 
-.contact_form input, textarea{
+.contact_form input,
+textarea {
   background-color: #fff;
   border: none;
   display: block;
@@ -326,4 +326,314 @@ img {
   padding: 15px 25px;
 }
 
+/* Responsive CSS */
+@media screen and (max-width: 576px) {
+  .header {
+    width: 100%;
+    background-image: none;
+    padding: 10px;
+  }
 
+  .nav {
+    width: 100%;
+  }
+
+  .nav .header_title {
+    font-size: 45px;
+    font-weight: 800;
+  }
+
+  .nav .menu {
+    flex-direction: column;
+  }
+
+  .nav .menu li {
+    margin-bottom: 20px;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner_info {
+    max-width: 100%;
+  }
+
+  .banner_info h4 {
+    font-size: 25px;
+  }
+
+  .banner_info h1 {
+    font-size: 55px;
+  }
+
+  .desc {
+    margin-bottom: 20px;
+  }
+
+  .primary_btn {
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .banner .banner_info .bgNone {
+    margin-left: 0px;
+  }
+
+  .img_area {
+    max-width: 100%;
+  }
+
+  .about {
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+  }
+
+  .section_title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .about_info {
+    flex-direction: column;
+  }
+
+  .about_info_item {
+    margin-bottom: 20px;
+  }
+
+  .what_i_do {
+    width: 100%;
+  }
+
+  .what_i_do .sub_desc {
+    width: 90%;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .skills_container {
+    flex-direction: column;
+  }
+
+  .skill_item {
+    margin-bottom: 15px;
+  }
+
+  .resume {
+    margin: 20px auto;
+  }
+
+  .resume button {
+    margin: 10px 0px;
+  }
+
+  .section_title {
+    font-size: 25px;
+  }
+
+  .resume_container {
+    flex-direction: column;
+  }
+
+  .education {
+    flex-basis: 100%;
+  }
+
+  .experience {
+    flex-basis: 100%;
+  }
+
+  .resume_title {
+    font-size: 23px;
+  }
+
+  .resume_info .title {
+    font-size: 18px;
+  }
+
+  .resume_info .subtitle {
+    font-size: 16px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .left_footer {
+    flex-basis: 100%;
+  }
+
+  .right_footer {
+    flex-basis: 100%;
+  }
+  .social_area {
+    width: 40%;
+  }
+
+  .contact_form input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+  }
+}
+
+/* Medium device responsive */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .header {
+    width: 100%;
+    background-image: none;
+    padding: 10px;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .nav .header_title {
+    font-size: 45px;
+    font-weight: 800;
+  }
+
+  .nav .menu {
+    flex-direction: column;
+  }
+
+  .nav .menu li {
+    margin-bottom: 20px;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner_info {
+    max-width: 100%;
+  }
+
+  .banner_info h4 {
+    font-size: 25px;
+  }
+
+  .banner_info h1 {
+    font-size: 55px;
+  }
+
+  .desc {
+    margin-bottom: 20px;
+  }
+
+  .primary_btn {
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .banner .banner_info .bgNone {
+    margin-left: 0px;
+  }
+
+  .img_area {
+    max-width: 100%;
+  }
+
+  .about {
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+  }
+
+  .section_title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .about_info {
+    flex-direction: column;
+  }
+
+  .about_info_item {
+    margin-bottom: 20px;
+  }
+
+  .what_i_do {
+    width: 100%;
+  }
+
+  .what_i_do .sub_desc {
+    width: 90%;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .skills_container {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .skill_item {
+    margin-bottom: 15px;
+  }
+
+  .resume {
+    margin: 20px auto;
+  }
+
+  .resume button {
+    margin: 10px 0px;
+  }
+
+  .section_title {
+    font-size: 25px;
+  }
+
+  .resume_container {
+    flex-direction: column;
+  }
+
+  .education {
+    flex-basis: 100%;
+  }
+
+  .experience {
+    flex-basis: 100%;
+  }
+
+  .resume_title {
+    font-size: 23px;
+  }
+
+  .resume_info .title {
+    font-size: 18px;
+  }
+
+  .resume_info .subtitle {
+    font-size: 16px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .left_footer {
+    flex-basis: 100%;
+  }
+
+  .right_footer {
+    flex-basis: 100%;
+  }
+  .social_area {
+    width: 40%;
+  }
+
+  .contact_form input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+  }
+}
